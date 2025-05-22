@@ -8,6 +8,11 @@ namespace VideoGame
 {
     public class Customer
     {
+        int CustomerId { get; set; }
+        public string CustomerName { get; set; }
+
+        List<Game> Rentedgames { get; set; }
+
      
     }
 
